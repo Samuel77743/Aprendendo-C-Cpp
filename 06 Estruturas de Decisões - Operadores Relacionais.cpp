@@ -20,8 +20,9 @@ int main()
 	
 	float media = notaA + notaB / 2;
 	
-	if (media >= 6);
-		{printf("Aluno Aprovado!\n Nota final: %.2f", media);
+	if (media >= 6)
+		{
+		printf("Aluno Aprovado!\n Nota final: %.2f", media);
 		}
 	else printf("Aluno Reprovado =(\n Nota final: %.2f", media);
 	}
