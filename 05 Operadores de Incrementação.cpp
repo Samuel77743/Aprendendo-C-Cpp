@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Adicionando título via Constante:
 #define titulo "Operadores de Incrementação"
 
@@ -26,6 +27,9 @@ int main(void)
 	z = 3;
 	z /= 3;
 	printf("\nz agora com \"/=3\" tem o valor de: %d", z);
+	system("pause");
+
 	}
+	
 
 

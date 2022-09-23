@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Declarando constante para obter Título:
 #define title "\nBreak e Continue"
 int main()
@@ -40,6 +41,8 @@ int main()
 		{
 		return main();
 		}
+	system("pause");
+
 	}
 
 

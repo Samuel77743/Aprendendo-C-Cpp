@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Declarando titulo em uma constante:
 #define title "Desvio de Fluxo - Switch"
 int main(void)
@@ -38,4 +39,5 @@ int main(void)
 			printf("Valor Invalido");
 			break;
 		}
+	system("pause");
 	}

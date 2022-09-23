@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Definindo constante que irá me garantir um enunciado:
 #define title "Laco de Repeticao FOR" //O for é semelhante ao While, porém mas coveniente para arrays
 int main(void)
@@ -14,5 +15,5 @@ int main(void)
 		{
 		printf("\n\"Red Dead Redemption 2\" e o melhor jogo do mundo!");
 		}
-	
+	system("pause");
 	}

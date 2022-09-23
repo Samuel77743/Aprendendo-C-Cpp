@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Gerando título imutável:
 #define titulo "Estruturas de Decisoes - Operadores Relacionais"
 int main()
@@ -25,4 +26,5 @@ int main()
 		printf("Aluno Aprovado!\n Nota final: %.2f", media);
 		}
 	else printf("Aluno Reprovado =(\n Nota final: %.2f", media);
+	system("pause");
 	}

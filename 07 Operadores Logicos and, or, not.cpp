@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Definindo constande que dará título ao código
 #define title "--------Operadores Logicos--------"
 int main()
-	{printf("\n%s", title);
+	{
+	printf("\n%s", title);
 	
 	float notaEscola;
 	float notaFaculdade;
@@ -32,5 +34,5 @@ int main()
 			}
 		}
 	else printf("Nota da escola insuficiente para ter acesso ao Exame para Faculdade \t Nota da Escola: %.2f", notaEscola);
-	
+	system("pause");
 	}

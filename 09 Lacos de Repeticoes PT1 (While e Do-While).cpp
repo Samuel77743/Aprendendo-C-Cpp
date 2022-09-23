@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Dando título via constante ao programa:
 #define title "Lacos de Repeticoes | While, Do-While"
 int main(void)
@@ -24,7 +25,8 @@ int main(void)
 		scanf("%f", &num2);
 		} while(num2 < 5);
 	printf("\n\nSE CHEGOU AQUI ACREDITO QUE TENHA SEGUIDO A INSTRUCAO");
-		
+	system("pause");
+
 	
 			
 }

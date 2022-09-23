@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Definindo CONSTANTES! que são como variáveis, porém imutáveis.
 //São definidas por '#define <nome> <valor>
 
@@ -23,7 +24,8 @@ int main(void)
 	printf("IDADE: %d", idade);
 	printf("\nALTURA: %.2f", altura);
 	printf("\nNOME: %s", nome);
-	
+	system("pause");
+
 	}
 
 

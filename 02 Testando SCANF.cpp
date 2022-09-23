@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Utilizando scanf
 int main(void)
 	{
@@ -11,8 +12,8 @@ int main(void)
 	scanf("%d", &b);
 	c = a+b;
 	printf("%d", c);
-	
 	return 0;
+	system("pause");
 	}
 		
 	
