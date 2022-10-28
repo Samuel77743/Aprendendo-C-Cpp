@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-#define title "\n----------Algoróitmo de Fibonacci----------\n"
+#define title "\n----------Algorítmo de Fibonacci----------\n"
 
 int main (void)
 	{
