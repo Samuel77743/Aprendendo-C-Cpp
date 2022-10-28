@@ -4,7 +4,6 @@
 
 #define title "\n----------Algoróitmo de Fibonacci----------\n"
 
-
 int main (void)
 	{
 	setlocale(LC_ALL, "Portuguese");
@@ -20,7 +19,7 @@ int main (void)
 	scanf("%d", &limite);
 	printf("%d\n%d", j, k);
 	
-	for(j = k+j; j <= limite;)
+	for(j; j <= limite;)
 		{
 		j = k + j;
 		k = j + k;
