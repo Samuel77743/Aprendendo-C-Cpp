@@ -4,6 +4,7 @@
 
 #define title "\n----------Algoróitmo de Fibonacci----------\n"
 
+
 int main (void)
 	{
 	setlocale(LC_ALL, "Portuguese");
@@ -29,4 +30,22 @@ int main (void)
 			}
 		else printf("\n%d\n%d", j, k);
 		}
+	printf("\n\n-------EXECUTADO COM ÊXITO-------\n\n");
+	printf("Digite \"1\" para reinicar o programa e \"2\" para Sair do programa ");
+	int resposta;
+	scanf("%d", &resposta);
+	if(resposta == 1)
+		{
+		system("cls");
+		return main();
+		}
+	else if(resposta == 2)
+		{
+		NULL;
+		}
+	else puts("Resposta Inválida");
+	
+	system("pause");
 	}
+	
+		
