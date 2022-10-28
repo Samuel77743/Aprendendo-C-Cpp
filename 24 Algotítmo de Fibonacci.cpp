@@ -23,7 +23,7 @@ int main (void)
 		{
 		j = k + j;
 		k = j + k;
-		if(j >= limite || k>= limite)
+		if(j > limite || k> limite)
 			{
 			break;
 			}
